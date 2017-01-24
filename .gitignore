@@ -1,0 +1,14 @@
+packages
+
+.vs
+
+/TimeLogDataAccess/obj
+
+/TimeLogDataAccess/bin
+/TimeLogDomain/obj
+
+/TimeLogDomain/bin
+/TimeLogWebApi/obj
+
+/TimeLogWebApi/bin
+/TimeLogWebApi/TimeLogWebApi.csproj.user

@@ -1,0 +1,13 @@
+﻿<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="user in users | orderBy: user.Id">
+            <td class="col-md-4 col-sm-4">{{user.Name}}</td>
+            <td class="col-md-4 col-sm-4"><a href="#" ng-click="timeLogModalOpen(user.Id)">Log time</a></td>
+        </tr>
+    </tbody>
+</table>

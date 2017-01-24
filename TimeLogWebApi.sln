@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLogWebApi", "TimeLogWebApi\TimeLogWebApi.csproj", "{14E7EBCD-3FE1-4CE3-B27B-F89B5E502E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLogDataAccess", "TimeLogDataAccess\TimeLogDataAccess.csproj", "{65290462-7FAC-4F05-8B0A-FDDC1376DFCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLogDomain", "TimeLogDomain\TimeLogDomain.csproj", "{AEAED8CB-F4D8-4D49-9C9B-1B6AA45E61DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14E7EBCD-3FE1-4CE3-B27B-F89B5E502E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E7EBCD-3FE1-4CE3-B27B-F89B5E502E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E7EBCD-3FE1-4CE3-B27B-F89B5E502E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E7EBCD-3FE1-4CE3-B27B-F89B5E502E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65290462-7FAC-4F05-8B0A-FDDC1376DFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65290462-7FAC-4F05-8B0A-FDDC1376DFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65290462-7FAC-4F05-8B0A-FDDC1376DFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65290462-7FAC-4F05-8B0A-FDDC1376DFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEAED8CB-F4D8-4D49-9C9B-1B6AA45E61DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEAED8CB-F4D8-4D49-9C9B-1B6AA45E61DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEAED8CB-F4D8-4D49-9C9B-1B6AA45E61DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEAED8CB-F4D8-4D49-9C9B-1B6AA45E61DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
